@@ -1,0 +1,12 @@
+module test; 
+ 	// Inputs  	reg [7:0] data_in;  
+	reg clk;
+  	reg reset;
+  	reg read;
+  	reg write; // Outputs  
+	wire [7:0] data_out; 
+ 	wire [5:0] count; 
+ 	wire full;  
+	wire empty; 
+ 
+ 	// Instantiate the Unit Under Test (UUT) 
